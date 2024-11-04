@@ -1,0 +1,55 @@
+
+.header {
+  background-color: #3a434d !important;
+  padding: 1rem;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .header nav ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+  
+  .header nav ul li a:hover {
+    opacity: 0.7;
+  }
+
+  @font-face {
+    font-family: 'Nexa';
+    src: url('../../assets/fonts/Nexa-ExtraLight.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Nexa-Heavy';
+    src: url('../../assets/fonts/Nexa-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .custom-header-button {
+    font-family: Nexa !important; /* Use 'sans-serif' como fallback */
+  }
+
+  .custom-header-title {
+    font-family: Nexa-Heavy, sans-serif !important; /* Use 'sans-serif' como fallback */
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
