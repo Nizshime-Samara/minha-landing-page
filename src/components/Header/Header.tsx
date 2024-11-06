@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
 import Toolbar from '@mui/material/Toolbar';
@@ -14,7 +13,7 @@ const CustomAppBar = styled(AppBar)(({ theme }) => ({
   backgroundSize: '400% 400%',
   animation: 'gradientAnimation 6s ease infinite',
   padding: '1rem',
-  boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
+  boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.4)',
   position: 'sticky',
   top: 0,
   zIndex: theme.zIndex.appBar,
@@ -24,11 +23,12 @@ const CustomTypographyTitleHeader = styled(Typography)({
   flexGrow: 2,
   color: '#FFF8DC',
   textAlign: 'left',
+  fontSize:40
 });
 
 const CustomButton = styled(Button)({
   color: '#FFF8DC',
-  fontWeight: 600,
+  fontWeight: 700,
   fontFamily: 'Nexa, sans-serif',
   '&:hover': {
     opacity: 0.7,
@@ -38,16 +38,11 @@ const CustomButton = styled(Button)({
 const SocialIcons = styled(Box)({
   display: 'flex',
   //justifyContent: 'center',
-  flexDirection: 'column', // Define a direção como coluna
-  alignItems: 'center', // Centraliza o conteúdo horizontalmente
-  // marginTop: '0.5rem',
-  // '& > *': {
-  //   margin: '0 0.5rem',
-  // },
+  flexDirection: 'column', 
+  alignItems: 'center', 
 
 });
 
-// Customizar o LinkedInIcon com gradiente usando svg
 const GradientLinkedInIcon = styled(LinkedInIcon)(({ theme }) => ({
   fontSize: '3.5rem',
   '& path': {
@@ -64,7 +59,6 @@ const Header: React.FC = () => {
         </CustomTypographyTitleHeader>
         <CustomButton>Projetos & Contato</CustomButton>
         <SocialIcons>
-          {/* SVG com o gradiente definido */}
           <svg width="0" height="0">
             <defs>
               <linearGradient id="linkedinGradient" x1="0" y1="0" x2="1" y2="0">

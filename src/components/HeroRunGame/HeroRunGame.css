@@ -1,0 +1,19 @@
+
+.hero-game-container {
+  text-align: center;
+}
+
+.canvas-stage {
+  border: 2px solid #3a434d;
+  border-radius: 8px;
+}
+
+.game-buttons {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.game-over-text {
+  color: red;
+  font-weight: bold;
+}

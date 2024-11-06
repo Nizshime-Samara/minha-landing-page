@@ -3,24 +3,24 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#C7A153', // Cor personalizada para primary
-      contrastText: '#FFFFFF', // Cor do texto para melhor contraste
+      main: '#C7A153', 
+      contrastText: '#FFFFFF',
     },
     secondary: {
-      main: '#5C6C7D', // Cor personalizada para secondary
-      contrastText: '#FFFFFF', // Cor do texto para melhor contraste
+      main: '#5C6C7D', 
+      contrastText: '#FFFFFF', 
     },
     background: {
-      default: '#1C1C1E', // Cor de fundo padrão
-      paper: '#2C2C2E', // Cor de fundo para elementos como cards
+      default: '#1C1C1E', 
+      paper: '#2C2C2E', 
     },
     text: {
-      primary: '#FFFFFF', // Cor do texto principal
-      secondary: '#9C5D5D', // Cor do texto secundário
+      primary: '#FFFFFF', 
+      secondary: '#9C5D5D', 
     },
   },
   typography: {
-    fontFamily: 'Arial, sans-serif, Nexa, Hexa-Heavy', // Fonte personalizada
+    fontFamily: 'Arial, sans-serif, Nexa, Hexa-Heavy', 
     h1: {
       fontSize: '2.5rem',
     },
