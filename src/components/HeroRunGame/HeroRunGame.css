@@ -1,15 +1,25 @@
 
 .hero-game-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 150px;
+  width: 100%;
+  height: 40vh; /* Faz o contêiner ocupar toda a altura da tela */
+  box-sizing: border-box;
 }
 
 .canvas-stage {
-  border: 2px solid #3a434d;
+  margin: 20px;
+  border: 10px solid #3a434d;
   border-radius: 8px;
 }
 
 .game-buttons {
   margin-top: 10px;
+  margin-bottom: 150px;
   padding: 10px;
 }
 
